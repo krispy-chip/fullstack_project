@@ -37,11 +37,9 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'datetimeapp',
     'fourdate_timeapp',           
     'listfruitapp',
     'portfolioapp',
-    'student_course_registration_app',
     
 ]
 
