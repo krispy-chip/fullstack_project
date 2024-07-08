@@ -1,0 +1,25 @@
+
+<html>
+<head>
+<title>{% block title %}{% endblock %}</title>
+{% load static %}
+</head>
+<body>
+<header>
+<nav>
+<ul>
+<li><a href="{% url 'main' %}" style="text-decoration:none;">Home</a></li>
+<li><a href="{% url 'about' %}" style="text-decoration:none;">About Us</a></li>
+<li><a href="{% url 'contact' %}" style="text-decoration:none;">Contact Us</a></li>
+</ul>
+</nav>
+</header>
+<div class="content-wrapper">
+{% block content %}
+{% endblock %}
+</div>
+<footer>
+<p>&copy; 2024 Search Creators. Developed by Hanumanthu.</p>
+</footer>
+</body>
+</html>
