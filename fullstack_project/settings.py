@@ -40,6 +40,7 @@ INSTALLED_APPS = [
     'fourdate_timeapp',           
     'listfruitapp',
     'portfolioapp',
+    'datetiimeapp'
     
 ]
 
