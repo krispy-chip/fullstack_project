@@ -22,4 +22,5 @@ urlpatterns = [
     path('', include('fourdate_timeapp.urls')),
     path('', include('listfruitapp.urls')),
     path('', include('portfolioapp.urls')),
+    path('', include('datetimeapp.urls')),
 ]
